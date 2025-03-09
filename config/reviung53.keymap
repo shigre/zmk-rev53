@@ -51,7 +51,7 @@
 
             bindings = <
                              &trans        &kp F9        &kp F10       &kp F11       &kp F12  &kp INS           &kp PAUSE_BREAK    &kp SLCK       &kp PSCRN  &trans
-&kp TILDE      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans   &trans            &kp MINUS          &kp EQUAL      &trans     &trans
+&kp TILDE      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none    &none             &kp MINUS          &kp EQUAL      &none      &none
 &trans         &trans        &none         &none         &none         &none         &none    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &trans     &kp DQT
 &trans         &none         &none         &none         &none         &none         &trans   &kp SEMICOLON     &kp SQT            &none                     &kp QMARK
 &kp LA(GRAVE)  &trans        &trans                      &trans                      &trans                                        &trans         &trans     &kp PIPE
@@ -70,8 +70,8 @@
             bindings = <
                        &trans  &kp F9  &kp F10  &kp F11  &kp F12        &kp C_MUTE  &kp C_VOL_UP  &kp C_VOL_DN  &kp C_PLAY  &trans
 &kp GRAVE      &kp N1  &kp N2  &kp N3  &kp N4   &kp N5   &kp N6         &kp N7      &kp N8        &kp N9        &kp N0      &trans
-&trans         &none   &none   &none   &none    &none    &kp PAGE_UP    &kp HOME    &kp UP        &kp END       &kp RBKT    &trans
-&trans         &none   &none   &none   &none    &none    &kp PAGE_DOWN  &kp LEFT    &kp DOWN      &kp RIGHT                 &trans
+&trans         &none   &none   &none   &none    &none    &kp PAGE_UP    &kp HOME    &kp UP        &kp END       &none       &none
+&trans         &none   &none   &none   &none    &none    &kp PAGE_DOWN  &kp LEFT    &kp DOWN      &kp RIGHT                 &none
 &kp LA(GRAVE)  &trans  &trans          &trans            &trans                                   &trans        &trans      &trans
             >;
         };
